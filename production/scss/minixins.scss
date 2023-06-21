@@ -1,0 +1,51 @@
+$html-font-size: 16px;
+@function stripUnit($value) {
+@return $value / ($value * 0 + 1);
+}
+@function rem($pxValue) {
+@return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
+
+@mixin circle($color: black){
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: block;
+    background-color: $color;
+}
+
+.circle-block{
+    @include circle;
+}
+.circle.yellow{
+    @include circle($color:yellow);
+}
+
+.circle.red{
+    @include circle($color:red);
+}
+
+.circle.purple{
+    @include circle($color:purple);
+}
+$red: red;
+$yellow: yellow;
+$purple: purple;
+
+%button-extended{
+    padding: 20px 60px;
+    border: none;
+    color: white;
+}
+.button-yellow{
+    @extend %button-extended;
+    background-color: yellow;
+}
+.button-red{
+    @extend %button-extended;
+    background-color: red;
+}
+.button-purple{
+    @extend %button-extended;
+    background-color: purple;
+}

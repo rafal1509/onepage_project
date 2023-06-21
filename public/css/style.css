@@ -1,0 +1,115 @@
+.klasa1 {
+  color: rgb(171, 19, 19);
+}
+
+.circle-block {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: black;
+}
+
+.circle.yellow {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: yellow;
+}
+
+.circle.red {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: red;
+}
+
+.circle.purple {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: purple;
+}
+
+.button-purple, .button-red, .button-yellow {
+  padding: 20px 60px;
+  border: none;
+  color: white;
+}
+
+.button-yellow {
+  background-color: yellow;
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-purple {
+  background-color: purple;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.li {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.circle-block {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: black;
+}
+
+.circle.yellow {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: yellow;
+}
+
+.circle.red {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: red;
+}
+
+.circle.purple {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: block;
+  background-color: purple;
+}
+
+.button-yellow, .button-red, .button-purple {
+  padding: 20px 60px;
+  border: none;
+  color: white;
+}
+
+.button-yellow {
+  background-color: yellow;
+}
+
+.button-red {
+  background-color: red;
+}
+
+.button-purple {
+  background-color: purple;
+}/*# sourceMappingURL=style.css.map */
